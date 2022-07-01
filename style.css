@@ -1,15 +1,45 @@
 .casas {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border: 1px solid black;
   border-style: solid;
-  
+  text-size-adjust: auto ;
 }
+
+.laterais {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-style: solid;
+  text-size-adjust: auto ;
+}
+.letras {
+  background-color: darkmagenta;
+}
+
+.chess {
+  background-color: chartreuse;
+}
+
+.numero {
+  background-color: rgb(248, 79, 231);
+}
+.grid  {
+  
+  display: grid;
+  }
+
+  .colunas {
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  }
+
+
 /* coloquei a classe para definir a cor das casas, e alinhei um texto no centro só pra gente ir definindo as casas, depois a gente faz bonitinho em volta do tabuleiro...*/
 
 .brancas {
   background-color: white;
 }
+
 
 
 .pretas {
