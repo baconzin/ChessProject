@@ -15,12 +15,6 @@ const positions = document.querySelectorAll("[data-cell]");
             if (piece.length != 0 && memoria == null) {
                 memoria = piece.value
                 piece.remove(memoria)
-            } else {
-                if (piece.length == 0 && memoria != null) {
-                    piece.add(memoria)
-                    memoria = null
-                } else {
-                }
             } } else if (piece.length == 0 && memoria != null) {
                 piece.add(memoria)
                 memoria = null
@@ -28,8 +22,6 @@ const positions = document.querySelectorAll("[data-cell]");
             } else {
             }
         };
-
-
     for (const position of positions) {  
         position.addEventListener('click', movePiece)
     }
