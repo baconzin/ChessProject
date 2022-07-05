@@ -3,85 +3,64 @@
   padding: 0;
   box-sizing: border-box;
 }
-.casas {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  border-style: solid;
-  text-size-adjust: auto ;
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(60deg, violet, red);
+  display: flex;
+}
+.telamenu {
+ background-color: white;
+ width: 400px;
+ height: 500px;
+ border-radius: 20px;
+ margin: 30px;
+ font-size: 40px;
+ padding: 20px 40px;
+ text-align: justify;
+}
+.telajogo{
+  margin: 30px;
 }
 .gameHere {
   display: grid;
   position: absolute;
-  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
-}
-#position {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  border-style: solid;
-  text-size-adjust: auto ;
-}
-.laterais {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  border-style: solid;
-  text-size-adjust: auto ;
-}
-.letras {
-  background-color: darkmagenta;
-  align-items: center;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-.chess {
-  background-color: chartreuse;
-  height: 30px;
-  width: 30px;
-  justify-content: right;
-  align-items: center;
-  display: flex;
-}
-
-.numero {
-  background-color: rgb(248, 79, 231);
-  justify-content: center;
-  width: 30px;
-  display: flex;
-  align-items: center;
+  grid-template-columns: repeat(8, 80px)
 }
 .grid  {
   display: grid;
   position:absolute;
+  grid-template-columns: repeat(8,80px)
 }
 
-.colunas {
-  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+/* CASAS */
+#position {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-style: solid;
 }
-
-
-/* coloquei a classe para definir a cor das casas, e alinhei um texto no centro só pra gente ir definindo as casas, depois a gente faz bonitinho em volta do tabuleiro...*/
-
+.casas {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-style: solid;
+}
 .brancas {
   background-color: white;
 }
-
+.pretas {
+  background-color: black;
+}
 .circulocreme {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-color: coral;
 }
 .circulobrown{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-color: brown;
 }  
-
-.pretas {
-  background-color: black;
-}

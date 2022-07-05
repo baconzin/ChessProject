@@ -6,166 +6,164 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <script src="index.js" defer ></script>
+  <script src="script.js" defer ></script>
   <title>Tabuleiro</title>
   <title>Chess board</title>
 </head>
 
 <body>
+    <div class="telamenu">
+    </div>
+    <div class="telajogo">
+      <section class="grid colunas">  
 
-  <span style="color:rgb(209, 21, 43); font-size:30px;">
-    Tabuleiro Final
-
-    <br><br>
-
-    <section class="grid colunas">  
-
-      <div class="a1 casas brancas quadradas"></div>
-      <div class="b1 casas pretas quadradas"></div>
-      <div class="c1 casas brancas quadradas"></div>
-      <div class="d1 casas pretas quadradas"></div>
-      <div class="e1 casas brancas quadradas"></div>
-      <div class="f1 casas pretas quadradas"></div>
-      <div class="g1 casas brancas quadradas"></div>
-      <div class="h1 casas pretas quadradas"></div>
-
-      <div class="a2 casas pretas quadradas"></div>
-      <div class="b2 casas brancas quadradas"></div>
-      <div class="c2 casas pretas quadradas"></div>
-      <div class="d2 casas brancas quadradas"></div>
-      <div class="e2 casas pretas quadradas"></div>
-      <div class="f2 casas brancas quadradas"></div>
-      <div class="g2 casas pretas quadradas"></div>
-      <div class="h2 casas brancas quadradas"></div>
-
-      <div class="a3 casas brancas quadradas"></div>
-      <div class="b3 casas pretas quadradas"></div>
-      <div class="c3 casas brancas quadradas"></div>
-      <div class="d3 casas pretas quadradas"></div>
-      <div class="e3 casas brancas quadradas"></div>
-      <div class="f3 casas pretas quadradas"></div>
-      <div class="g3 casas brancas quadradas"></div>
-      <div class="h3 casas pretas quadradas"></div>
-
-      <div class="a4 casas pretas quadradas"></div>
-      <div class="b4 casas brancas quadradas"></div>
-      <div class="c4 casas pretas quadradas"></div>
-      <div class="d4 casas brancas quadradas"></div>
-      <div class="e4 casas pretas quadradas"></div>
-      <div class="f4 casas brancas quadradas"></div>
-      <div class="g4 casas pretas quadradas"></div>
-      <div class="h4 casas brancas quadradas"></div>
-
-      <div class="a5 casas brancas quadradas"></div>
-      <div class="b5 casas pretas quadradas"></div>
-      <div class="c5 casas brancas quadradas"></div>
-      <div class="d5 casas pretas quadradas"></div>
-      <div class="e5 casas brancas quadradas"></div>
-      <div class="f5 casas pretas quadradas"></div>
-      <div class="g5 casas brancas quadradas"></div>
-      <div class="h5 casas pretas quadradas"></div>
-
-      <div class="a6 casas pretas quadradas"></div>
-      <div class="b6 casas brancas quadradas"></div>
-      <div class="c6 casas pretas quadradas"></div>
-      <div class="d6 casas brancas quadradas"></div>
-      <div class="e6 casas pretas quadradas"></div>
-      <div class="f6 casas brancas quadradas"></div>
-      <div class="g6 casas pretas quadradas"></div>
-      <div class="h6 casas brancas quadradas"></div>
-
-      <div class="a7 casas brancas quadradas"></div>
-      <div class="b7 casas pretas quadradas"></div>
-      <div class="c7 casas brancas quadradas"></div>
-      <div class="d7 casas pretas quadradas"></div>
-      <div class="e7 casas brancas quadradas"></div>
-      <div class="f7 casas pretas quadradas"></div>
-      <div class="g7 casas brancas quadradas"></div>
-      <div class="h7 casas pretas quadradas"></div>
-
-      <div class="a8 casas pretas quadradas"></div>
-      <div class="b8 casas brancas quadradas"></div>
-      <div class="c8 casas pretas quadradas"></div>
-      <div class="d8 casas brancas quadradas"></div>
-      <div class="e8 casas pretas quadradas"></div>
-      <div class="f8 casas brancas quadradas"></div>
-      <div class="g8 casas pretas quadradas"></div>
-      <div class="h8 casas brancas quadradas"></div>
-
-    </section>
-    <section class="gameHere">
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulobrown"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulobrown"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulobrown"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulobrown"></div>
-
-      <div id="position" data-cell class="circulobrown"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulobrown"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulobrown"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulobrown"></div>
-      <div id="position" data-cell class=""></div>
-
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulobrown"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulobrown"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulobrown"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulobrown"></div>
-
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class=""></div>
-
-      <div id="position" data-cell class="circulocreme"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulocreme"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulocreme"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulocreme"></div>
-      <div id="position" data-cell class=""></div>
-
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulocreme"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulocreme"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulocreme"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulocreme"></div>
-
-      <div id="position" data-cell class="circulocreme"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulocreme"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulocreme"></div>
-      <div id="position" data-cell class=""></div>
-      <div id="position" data-cell class="circulocreme"></div>
-      <div id="position" data-cell class=""></div>
-    </section>
+        <div class="a1 casas brancas quadradas"></div>
+        <div class="b1 casas pretas quadradas"></div>
+        <div class="c1 casas brancas quadradas"></div>
+        <div class="d1 casas pretas quadradas"></div>
+        <div class="e1 casas brancas quadradas"></div>
+        <div class="f1 casas pretas quadradas"></div>
+        <div class="g1 casas brancas quadradas"></div>
+        <div class="h1 casas pretas quadradas"></div>
+  
+        <div class="a2 casas pretas quadradas"></div>
+        <div class="b2 casas brancas quadradas"></div>
+        <div class="c2 casas pretas quadradas"></div>
+        <div class="d2 casas brancas quadradas"></div>
+        <div class="e2 casas pretas quadradas"></div>
+        <div class="f2 casas brancas quadradas"></div>
+        <div class="g2 casas pretas quadradas"></div>
+        <div class="h2 casas brancas quadradas"></div>
+  
+        <div class="a3 casas brancas quadradas"></div>
+        <div class="b3 casas pretas quadradas"></div>
+        <div class="c3 casas brancas quadradas"></div>
+        <div class="d3 casas pretas quadradas"></div>
+        <div class="e3 casas brancas quadradas"></div>
+        <div class="f3 casas pretas quadradas"></div>
+        <div class="g3 casas brancas quadradas"></div>
+        <div class="h3 casas pretas quadradas"></div>
+  
+        <div class="a4 casas pretas quadradas"></div>
+        <div class="b4 casas brancas quadradas"></div>
+        <div class="c4 casas pretas quadradas"></div>
+        <div class="d4 casas brancas quadradas"></div>
+        <div class="e4 casas pretas quadradas"></div>
+        <div class="f4 casas brancas quadradas"></div>
+        <div class="g4 casas pretas quadradas"></div>
+        <div class="h4 casas brancas quadradas"></div>
+  
+        <div class="a5 casas brancas quadradas"></div>
+        <div class="b5 casas pretas quadradas"></div>
+        <div class="c5 casas brancas quadradas"></div>
+        <div class="d5 casas pretas quadradas"></div>
+        <div class="e5 casas brancas quadradas"></div>
+        <div class="f5 casas pretas quadradas"></div>
+        <div class="g5 casas brancas quadradas"></div>
+        <div class="h5 casas pretas quadradas"></div>
+  
+        <div class="a6 casas pretas quadradas"></div>
+        <div class="b6 casas brancas quadradas"></div>
+        <div class="c6 casas pretas quadradas"></div>
+        <div class="d6 casas brancas quadradas"></div>
+        <div class="e6 casas pretas quadradas"></div>
+        <div class="f6 casas brancas quadradas"></div>
+        <div class="g6 casas pretas quadradas"></div>
+        <div class="h6 casas brancas quadradas"></div>
+  
+        <div class="a7 casas brancas quadradas"></div>
+        <div class="b7 casas pretas quadradas"></div>
+        <div class="c7 casas brancas quadradas"></div>
+        <div class="d7 casas pretas quadradas"></div>
+        <div class="e7 casas brancas quadradas"></div>
+        <div class="f7 casas pretas quadradas"></div>
+        <div class="g7 casas brancas quadradas"></div>
+        <div class="h7 casas pretas quadradas"></div>
+  
+        <div class="a8 casas pretas quadradas"></div>
+        <div class="b8 casas brancas quadradas"></div>
+        <div class="c8 casas pretas quadradas"></div>
+        <div class="d8 casas brancas quadradas"></div>
+        <div class="e8 casas pretas quadradas"></div>
+        <div class="f8 casas brancas quadradas"></div>
+        <div class="g8 casas pretas quadradas"></div>
+        <div class="h8 casas brancas quadradas"></div>
+  
+      </section>
+      <section class="gameHere">
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulobrown"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulobrown"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulobrown"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulobrown"></div>
+  
+        <div id="position" data-cell class="circulobrown"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulobrown"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulobrown"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulobrown"></div>
+        <div id="position" data-cell class=""></div>
+  
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulobrown"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulobrown"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulobrown"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulobrown"></div>
+  
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+  
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class=""></div>
+  
+        <div id="position" data-cell class="circulocreme"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulocreme"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulocreme"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulocreme"></div>
+        <div id="position" data-cell class=""></div>
+  
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulocreme"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulocreme"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulocreme"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulocreme"></div>
+  
+        <div id="position" data-cell class="circulocreme"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulocreme"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulocreme"></div>
+        <div id="position" data-cell class=""></div>
+        <div id="position" data-cell class="circulocreme"></div>
+        <div id="position" data-cell class=""></div>
+      </section>
+    </div>
 
 </body>
 
