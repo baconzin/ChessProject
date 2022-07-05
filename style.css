@@ -50,7 +50,7 @@ body {
   background-color: white;
 }
 .pretas {
-  background-color: black;
+  background-color: rgb(46, 172, 56);
 }
 .circulocreme {
   width: 80px;
@@ -64,3 +64,51 @@ body {
   border-radius: 50%;
   background-color: brown;
 }  
+.peaopreto {
+  background-size: cover;
+  background-image: url(/xadrez/img/peao.svg)
+}
+.peaobranco {
+  background-size: cover;
+  background-image: url(/xadrez/img/peaobranco.svg);
+}
+.reipreto{
+  background-size: cover;
+  background-image: url(/xadrez/img/reipreto.svg);
+}
+.reibranco{
+  background-size: cover;
+  background-image: url(/xadrez/img/reibranco.svg)
+}
+.rainhapreta{
+  background-size: cover;
+  background-image: url(/xadrez/img/rainhapreta.svg);
+}
+.rainhabranca{
+  background-size: cover;
+  background-image: url(/xadrez/img/rainhabranca.svg);
+}
+.cavalopreto{
+  background-size: cover;
+  background-image: url(/xadrez/img/cavalopreto.svg);
+}
+.cavalobranco{
+  background-size: cover;
+  background-image: url(/xadrez/img/cavalobranco.svg);
+}
+.bispopreto{
+  background-size: cover;
+  background-image: url(/xadrez/img/bispopreto.svg);
+}
+.bispobranco{
+  background-size: cover;
+  background-image: url(/xadrez/img/bispobranco.svg);
+}
+.torrepreta{
+  background-size: cover;
+  background-image: url(/xadrez/img/torrepreta.svg);
+}
+.torrebranca{
+  background-size: cover;
+  background-image: url(/xadrez/img/torrebranca.svg);
+}
