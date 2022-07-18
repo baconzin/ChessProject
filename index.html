@@ -1,37 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="./script.js"></script>
-	<link rel="stylesheet" type="text/css" href="./style.css">
-	<title>Damas!</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="lib/chessboardjs/css/chessboard-0.3.0.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Chess!</title>
+
 </head>
 
 <body>
-	<header>
-		<h1>Damas.<span>js</span>
-			<h1>
-	</header>
-	<section id="info">
-		<h1>TURNO: <span></span></h1>
-		<div>
-			<div id="white-counter">Peças Brancas: <span></span></div>
-			<div id="black-counter">Peças Pretas: <span></span></div>
-		</div>
-		<button class="btn" onclick="init()">Reiniciar</button>
-	</section>
-	<main></main>
-	<footer>
-		<ul>
-			<li><a href="https://github.com/baconzin/"><img src='img/github.png' /></a></li>
-			<li><a href="https://www.linkedin.com/in/raphael-almeida-pascon-677b7786/"><img src='img/linkedin-icon.png' /></a>
-			</li>
-		</ul>
-	</footer>
 
+    <section id="info">
+        <h1>TURNO: <span></span></h1>
+        <div>
+            <div id="white-counter">Peças Brancas: <span></span></div>
+            <div id="black-counter">Peças Pretas: <span></span></div>
+        </div>
+        <button id="refresh"> Reiniciar</button>
+    </section>
+
+    <div id="board" class="board"></div>
+    <div class="info">
+        Search depth:
+        <select id="search-depth">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <br>
+        <span>Positions evaluated: <span id="position-count"></span></span>
+        <br>
+        <span>Time: <span id="time"></span></span>
+        <br>
+        <span>Positions/s: <span id="positions-per-s"></span> </span>
+        <br>
+        <br>
+        <div id="move-history" class="move-history">
+        </div>
+    </div>
+    <script src="lib/jquery/jquery-3.2.1.min.js"></script>
+    <script src="lib/chessboardjs/js/chess.js"></script>
+    <script src="lib/chessboardjs/js/chessboard-0.3.0.js"></script>
+    <script src="script.js"></script>
+    <script>
+
+    </script>
+
+    <footer class="lista">
+        <ul>
+            <li><a href="https://github.com/baconzin/"><img src='./img/chesspieces/wikipedia/25231.png' height="100"
+                        width="100" /></a>
+                <p> Acess my github!</p>
+            </li>
+            <li><a href="https://www.linkedin.com/in/raphael-almeida-pascon-677b7786/"><img
+                        src='./img/chesspieces/wikipedia/174857.png' height="100" width="100" /></a>
+                <p> Or the linkedin :)</p>
+            </li>
+        </ul>
+    </footer>
 </body>
+
 
 </html>
