@@ -1,7 +1,7 @@
-# Simple chess AI
+# Chess Game
 
-A simple chess algorithm with alpha-beta pruning and board evaluation with piece-square tables.
+<p align="center">
+  <img src="https://cran.r-project.org/web/packages/chess/readme/man/figures/logo.png" />
+</p>
 
-Related blogpost: https://medium.freecodecamp.com/simple-chess-ai-step-by-step-1d55a9266977
-
-Playable on https://jsfiddle.net/q76uzxwe/1/
+Need to do this README again...
