@@ -45,11 +45,11 @@ Create a chess game.
 
 ## Screenshot
 
-### Normal game
-<img src="https://raw.githubusercontent.com/baconzin/MarioBrossGame/main/imgs/Mario%2001.png">
+### Normal game with layout
+<img src="https://raw.githubusercontent.com/baconzin/ChessProject/main/img/chesspieces/wikipedia/Chess.png">
 
 ### Game working
 
-<img width=450 src="https://raw.githubusercontent.com/baconzin/MarioBrossGame/main/imgs/Mario%2002.png">
+<img width=450 src="https://raw.githubusercontent.com/baconzin/ChessProject/main/img/chesspieces/wikipedia/Chess-Working.png">
 
 
